@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-Data Science enthusiast - in development to apply econometric/statistical, business and programming knowledge to projects that directly impact market and society.
+Data Science Enthusiast - in development to apply econometric/statistical, business and programming knowledge to projects that directly impact market and society.
 
 ### More Information
 
