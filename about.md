@@ -3,12 +3,15 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-Some information about you!
+Data Science enthusiast - in development to apply econometric/statistical, business and programming knowledge to projects that directly impact market and society.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Technical leader MDO at FGV - Superintendence of Research, Data and Operation
+MBA - Business Intelligence and Data Science 
+MSc - Quantitative Economics
+Master in Finance
+BSc - Economics
 
 ### Contact me
 
