@@ -7,7 +7,7 @@ Data Science Enthusiast - in development to apply econometric/statistical, busin
 
 R, Python, SQL, Power BI, Excel, LaTeX, RapidMiner, Pentaho, SQL Power Architect, Spark, Hadoop, Microsoft Azure, Databricks, etc.
 
-Forecasting, Time Series, IA, Machine Learning, Deep Learning.
+Forecasting, Time Series, AI, Machine Learning, Deep Learning.
 
 ### More Information
 
