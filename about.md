@@ -7,6 +7,8 @@ Data Science Enthusiast - in development to apply econometric/statistical, busin
 
 R, Python, SQL, Power BI, Excel, LaTeX, RapidMiner, Pentaho, SQL Power Architect, Spark, Hadoop, Microsoft Azure, etc.
 
+Forecasting, Time Series, Machine Learning, Deep Learning.
+
 ### More Information
 
 - Technical leader MDO at FGV - Superintendence of Research, Data and Operation
