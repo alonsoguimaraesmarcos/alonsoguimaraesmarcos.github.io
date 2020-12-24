@@ -7,11 +7,11 @@ Data Science Enthusiast - in development to apply econometric/statistical, busin
 
 ### More Information
 
-Technical leader MDO at FGV - Superintendence of Research, Data and Operation\
-MBA - Business Intelligence and Data Science\
-MSc - Quantitative Economics\
-Master in Finance\
-BSc - Economics
+- Technical leader MDO at FGV - Superintendence of Research, Data and Operation\
+- MBA - Business Intelligence and Data Science\
+- MSc - Quantitative Economics\
+- Master in Finance\
+- BSc - Economics
 
 ### Contact me
 
