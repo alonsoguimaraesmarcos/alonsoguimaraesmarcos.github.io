@@ -3,9 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
-Data Science Enthusiast - in development to apply econometric/statistical, business and programming knowledge to projects that directly impact market and society./
+Data Science Enthusiast - in development to apply econometric/statistical, business and programming knowledge to projects that directly impact market and society.
 
-R, Python, SQL, Power BI
+R, Python, SQL, Power BI, Excel, LaTeX, RapidMiner, Pentaho, SQL Power Architect, Spark, Hadoop, etc.
 
 ### More Information
 
