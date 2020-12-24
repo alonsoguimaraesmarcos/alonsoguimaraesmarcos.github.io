@@ -31,6 +31,11 @@ footer-links:
   stackoverflow: https://pt.stackoverflow.com/users/217483/alonsomar # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
+  kaggle:
+  id: 'yuqizheng'
+  href: 'https://www.kaggle.com/'
+  title: 'Kaggle'
+  fa-icon: 'fab fa-kaggle fa-2x'  # note fab prefix
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
