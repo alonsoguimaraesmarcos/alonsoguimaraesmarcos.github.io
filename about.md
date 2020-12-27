@@ -5,8 +5,10 @@ permalink: /about/
 ---
 Data Science Enthusiast - in development to apply econometric/statistical, business and programming knowledge to projects that directly impact market and society.
 
+#### Technologies
 R, Python, SQL, Power BI, Excel, LaTeX, RapidMiner, Pentaho, SQL Power Architect, Spark, Hadoop, Microsoft Azure, Databricks, etc.
 
+#### Subjects
 Forecasting, Time Series, AI, Machine Learning, Deep Learning.
 
 ### More Information
