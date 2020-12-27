@@ -5,6 +5,8 @@ permalink: /about/
 ---
 Data Science Enthusiast - in development to apply econometric/statistical, business and programming knowledge to projects that directly impact market and society.
 
+You can [get the PDF]({{ site.url }}/images/Marcos alonso_resumo.pdf) directly.
+
 #### Technologies
 R, Python, SQL, Power BI, Excel, LaTeX, RapidMiner, Pentaho, SQL Power Architect, Spark, Hadoop, Microsoft Azure, Databricks, etc.
 
