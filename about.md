@@ -10,7 +10,7 @@ You can check out my short resume [here]({{ site.url }}/images/Marcos alonso_res
 Lattes: [here]({{ sitebase.url }}http://lattes.cnpq.br/0925444504697418)
 
 #### Technologies
-R, Python, SQL, Power BI, Excel, LaTeX, RapidMiner, Pentaho Data Integration, SQL Power Architect, Spark, Hadoop, Microsoft Azure, Databricks, etc.
+R, Python, SQL, Power BI, Excel, LaTeX, RapidMiner, Pentaho Data Integration, SQL Power Architect, Spark, Hadoop, Microsoft Azure, Databricks (Scala), etc.
 
 #### Subjects
 Forecasting, Time Series, AI, Machine Learning, Deep Learning.
