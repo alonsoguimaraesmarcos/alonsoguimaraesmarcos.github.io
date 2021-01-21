@@ -13,7 +13,7 @@ Lattes: [here]({{ sitebase.url }}http://lattes.cnpq.br/0925444504697418)
 R, Python, SQL, Power BI, Excel, LaTeX, RapidMiner, Pentaho Data Integration, SQL Power Architect, Spark, Hadoop, Microsoft Azure, Databricks (Scala), etc.
 
 #### Subjects
-ETL, Forecasting, Time Series, AI, Machine Learning, Deep Learning.
+ETL, Data Wrangling, Data Mining, Data Crawling and Scraping, Forecasting, Time Series, AI, Machine Learning, Deep Learning.
 
 ### More Information
 
