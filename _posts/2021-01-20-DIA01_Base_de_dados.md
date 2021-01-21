@@ -17,3 +17,8 @@ Todavia, base de dados são comumente confundidas com outros dois locais de arma
 
 Obrigado!
 
+Fontes imagens:
+
+https://www.salesforce.com/br/blog/2020/10/data-warehouse-e-data-lake.html
+
+https://blog.k2datascience.com/ds-fundamentals-databases-and-sql-a6ad5562abbc?gi=8f4d77c3c13b
