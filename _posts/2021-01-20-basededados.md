@@ -11,6 +11,8 @@ Os dados podem ser divididos em três classificações: estruturados, semiestrut
 
 Isto posto, constrói-se a base conceitual para introdução ao tema de base de dados, ou databases. Também por definição sumária, uma base ou banco de dados simplesmente é um local que registra e armazena uma coleção de dados estruturados. A partir delas, é possível realizar queries, criar relatórios, automatizar processos corporativos etc. São fundamentais para o cotidiano de um ambiente corporativo e completamente inserido no dia a dia de muitas pessoas, direta ou indiretamente.
 
+![_config.yml]({{ site.baseurl }}/images/base-de-dados-img.jpg)
+
 Todavia, base de dados são comumente confundidas com outros dois locais de armazenamento de dados: DataWarehouse e Data Lake. No próximo post, as diferenças entre os três serão elucidadas.
 
 Obrigado!
