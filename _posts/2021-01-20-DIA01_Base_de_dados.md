@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'DIA01_Base_de dados'
+title: 'Dia 01: Base de dados'
 ---
 
 Quando se remete ao tema base de dados, é primordial introduzir o conceito de dados em um primeiro momento. Um dado, de forma lacônica, é uma observação documentada e armazenada. Ou seja, é a partir dele que conseguimos gerar informações, que por sua vez auxiliam o processo de tomada de decisões nos negócios.
