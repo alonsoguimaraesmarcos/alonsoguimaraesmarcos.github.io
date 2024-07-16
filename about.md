@@ -5,7 +5,7 @@ permalink: /about/
 ---
 Data Science Enthusiast - in development to apply econometric/statistical, business and programming knowledge to projects that directly impact market and society.
 
-You can check out my short resume [here]({{ site.url }}/images/Marcos alonso_resumo.pdf). 
+You can check out my short resume [here]({{ site.url }}/images/Marcos Alonso.pdf). 
 
 Lattes: [here]({{ sitebase.url }}http://lattes.cnpq.br/0925444504697418)
 
