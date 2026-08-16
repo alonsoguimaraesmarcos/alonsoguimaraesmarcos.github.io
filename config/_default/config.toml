@@ -1,0 +1,9 @@
+baseURL = "https://alonsoguimaraesmarcos.github.io/"
+languageCode = "pt-br"
+defaultContentLanguage = "pt"
+#title = "Marcos Alonso"
+theme = "blowfish"
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10

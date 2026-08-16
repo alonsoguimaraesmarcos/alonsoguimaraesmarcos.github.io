@@ -1,0 +1,47 @@
+{{ $images := sort (resources.Match "img/sobre-carousel/*") "RelPermalink" }}
+<div class="about-photo-wrap" id="about-photo-carousel">
+{{ range $i, $img := $images }}{{ $resized := $img.Fill "440x752 smart q85" }}<img src="{{ $resized.RelPermalink }}" alt="Foto de Marcos" loading="lazy" class="about-photo-slide{{ if eq $i 0 }} is-active{{ end }}">
+{{ end }}</div>
+{{ if gt (len $images) 1 }}
+<div class="about-photo-dots">
+{{ range $i, $img := $images }}<button type="button" class="about-photo-dot{{ if eq $i 0 }} is-active{{ end }}" data-slide="{{ $i }}" aria-label="Foto {{ add $i 1 }}"></button>
+{{ end }}</div>
+<script>
+(function() {
+  var wrap = document.getElementById('about-photo-carousel');
+  if (!wrap) return;
+  var slides = wrap.querySelectorAll('.about-photo-slide');
+  var dots = document.querySelectorAll('.about-photo-dot');
+  var current = 0;
+  var total = slides.length;
+  var intervalMs = 5000;
+  var timer;
+
+  function goTo(index) {
+    slides[current].classList.remove('is-active');
+    if (dots[current]) dots[current].classList.remove('is-active');
+    current = index;
+    slides[current].classList.add('is-active');
+    if (dots[current]) dots[current].classList.add('is-active');
+  }
+
+  function next() {
+    goTo((current + 1) % total);
+  }
+
+  function resetTimer() {
+    clearInterval(timer);
+    timer = setInterval(next, intervalMs);
+  }
+
+  dots.forEach(function(dot) {
+    dot.addEventListener('click', function() {
+      goTo(parseInt(dot.getAttribute('data-slide'), 10));
+      resetTimer();
+    });
+  });
+
+  resetTimer();
+})();
+</script>
+{{ end }}

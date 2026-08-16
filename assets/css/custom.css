@@ -1,0 +1,173 @@
+.logo {
+  max-height: 6rem !important;
+  max-width: none !important;
+}
+#page-sobre-marker {
+  display: none;
+}
+body:has(#page-sobre-marker) .single_hero_background #background-image {
+  opacity: 0;
+}
+body:has(#page-sobre-marker) .single_hero_background {
+  background-color: #0b1220;
+}
+
+/* Ondas decorativas na página inicial, passando atrás da foto */
+.home-wave {
+  position: absolute;
+  top: 76px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 1;
+  pointer-events: none;
+  background-repeat: repeat-x;
+  animation: home-wave-reveal 4.3s ease-out infinite;
+}
+.home-wave--sinx {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 80'%3E%3Cpath d='M0 40 C25 0,75 0,100 40 C125 80,175 80,200 40' stroke='white' stroke-opacity='0.35' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-size: 200px 80px;
+}
+.home-wave--sin2x {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 80'%3E%3Cpath d='M0 40 C25 0,75 0,100 40 C125 80,175 80,200 40' stroke='white' stroke-opacity='0.35' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-size: 100px 80px;
+}
+.home-wave--sinx2 {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 80'%3E%3Cpath d='M0 40 C25 0,75 0,100 40 C125 80,175 80,200 40' stroke='white' stroke-opacity='0.35' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-size: 400px 80px;
+}
+@keyframes home-wave-reveal {
+  0%   { clip-path: inset(0 100% 0 0); }
+  93%  { clip-path: inset(0 0 0 0); }
+  95%  { clip-path: inset(0 0 0 0); }
+  96%  { clip-path: inset(0 100% 0 0); }
+  100% { clip-path: inset(0 100% 0 0); }
+}
+body:has(#home-wave-marker) img.rounded-full[data-zoom-src] {
+  position: relative;
+  z-index: 2;
+}
+
+/* Destaque ao passar o mouse nos itens de Projetos/Posts */
+.article-link--simple {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  position: relative;
+}
+.article-link--simple:hover {
+  transform: scale(1.02) !important;
+  border-color: #3b82f6 !important;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35) !important;
+  z-index: 10;
+}
+
+/* Foto da página Sobre: carrossel com moldura de janela arqueada e borda esfumaçada */
+.about-photo-wrap {
+  float: right;
+  position: relative;
+  width: 220px;
+  aspect-ratio: 220 / 376;
+  margin: 4px 0 12px 28px;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 170'%3E%3Cdefs%3E%3Cfilter id='f' x='-30%25' y='-30%25' width='160%25' height='160%25'%3E%3CfeGaussianBlur stdDeviation='4.5'/%3E%3C/filter%3E%3C/defs%3E%3Cpath d='M0,170 L0,50 A50,50 0 0 1 100,50 L100,170 Z' fill='white' filter='url(%23f)'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 170'%3E%3Cdefs%3E%3Cfilter id='f' x='-30%25' y='-30%25' width='160%25' height='160%25'%3E%3CfeGaussianBlur stdDeviation='4.5'/%3E%3C/filter%3E%3C/defs%3E%3Cpath d='M0,170 L0,50 A50,50 0 0 1 100,50 L100,170 Z' fill='white' filter='url(%23f)'/%3E%3C/svg%3E");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.about-photo-slide {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.about-photo-slide.is-active {
+  opacity: 1;
+}
+
+.about-photo-dots {
+  float: right;
+  clear: right;
+  display: flex;
+  gap: 6px;
+  width: 220px;
+  justify-content: center;
+  margin: 0 0 24px 28px;
+}
+
+.about-photo-dot {
+  width: 22px;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.about-photo-dot:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.about-photo-dot.is-active {
+  background: #3b82f6;
+  transform: scaleX(1.3);
+}
+
+@media (max-width: 640px) {
+  .about-photo-wrap,
+  .about-photo-dots {
+    float: none;
+    width: 70%;
+    margin: 0 auto 12px;
+  }
+  .about-photo-dots {
+    margin-bottom: 24px;
+  }
+}
+
+/* Foto da página Sobre, com moldura em formato de janela arqueada e borda esfumaçada */
+.about-photo-wrap img {
+  display: block;
+}
+
+/* Botões de contato modernos (Sobre) */
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.6rem 1.15rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.03);
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.contact-button:hover {
+  transform: translateY(-2px) scale(1.03);
+  border-color: #3b82f6;
+  background: rgba(59, 130, 246, 0.14);
+}
+
+.contact-button__icon svg {
+  width: 1.05rem;
+  height: 1.05rem;
+}

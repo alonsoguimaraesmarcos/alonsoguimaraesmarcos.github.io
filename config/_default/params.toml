@@ -1,0 +1,35 @@
+logo = "img/logo.png"
+colorScheme = "blue"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+backgroundImageWidth = 2400
+
+mainSections = ["posts"]
+[homepage]
+  layout = "background"
+  homepageImage = "img/paisagem-praia-v2.jpg"
+  showRecent = true
+
+[author]
+  name = "Marcos Alonso"
+  image = "img/foto-perfil.jpg"
+  headline = "MSc Economist | MBA Data Scientist"
+  bio = "Entusiasta de tecnologia, atuando com ciência de dados e estudando aplicações de Inteligência Artificial (machine learning e deep learning), Data Science e Business Intelligence."
+  links = [
+    { email = "mailto:marcos.guimaraesalonso@gmail.com" },
+    { linkedin = "https://www.linkedin.com/in/marcosalonso16/" },
+    { github = "https://github.com/alonsoguimaraesmarcos" }
+  ]
+
+[list]
+  showHero = true
+  heroStyle = "background"
+  showCards = true
+  showSummary = true
+  groupByYear = true
+
+[article]
+  showTaxonomies = true
+  showTags = true
+  showCategories = true
+  showReadingTime = true

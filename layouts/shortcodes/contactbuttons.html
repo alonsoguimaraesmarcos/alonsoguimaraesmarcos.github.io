@@ -1,0 +1,4 @@
+<div class="contact-buttons">
+{{ with site.Params.Author.links }}{{ range $links := . }}{{ range $name, $url := $links }}{{ $isEmail := eq $name "email" }}{{ $label := $name | title }}{{ if eq $name "email" }}{{ $label = "E-mail" }}{{ end }}{{ if eq $name "linkedin" }}{{ $label = "LinkedIn" }}{{ end }}{{ if eq $name "github" }}{{ $label = "GitHub" }}{{ end }}<a class="contact-button{{ if $isEmail }} email-link{{ end }}" href="{{ if $isEmail }}#{{ else }}{{ $url | safeURL }}{{ end }}"{{ if $isEmail }} data-email="{{ $url | base64Encode }}" data-subject="Contact"{{ end }} target="_blank" rel="me noopener noreferrer"><span class="contact-button__icon">{{ partial "icon.html" $name }}</span><span class="contact-button__label">{{ $label }}</span></a>
+{{ end }}{{ end }}{{ end }}
+</div>
